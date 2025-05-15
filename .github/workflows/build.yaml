@@ -20,4 +20,3 @@ jobs:
         with:
           name: latest
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "./module.json"
