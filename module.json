@@ -1,42 +1,40 @@
 {
-    "id": "aurashare",
-    "name": "aurashare",
-    "title": "Aura Share",
-    "description": "Automates auras in Pathfinder 1e",
-    "version": "2.1.0",
-    "esmodules": [
-        "scripts/aurashare.js"
-      ],
-    "authors": [
+  "id": "aurashare",
+  "name": "aurashare",
+  "title": "Aura Share",
+  "description": "Automates auras in Pathfinder 1e",
+  "version": "2.1.0",
+  "esmodules": ["scripts/aurashare.js"],
+  "authors": [
+    {
+      "name": "Stuart Frew",
+      "url": "https://github.com/stuart-frew/Aura-Share",
+      "discord": ""
+    }
+  ],
+  "relationships": {
+    "systems": [
       {
-        "name": "Fiona Brightgrass",
-        "url": "https://github.com/FionaBrightgrass/Aura-Share",
-        "discord": "lvl99fiona"
-      }
-    ],
-    "relationships": {
-      "systems": [
-        {
-          "id": "pf1",
-          "type": "system",
-          "compatibility": {
-            "minimum": "0.82.5"
-          }
-		},
-        {
-          "id": "ffd20",
-          "type": "system",
-          "compatibility": {
-            "minimum": "10.0.0"
-          }
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.82.5"
         }
-      ]
-    },
-	  "compatibility": {
-		"minimum": "10",
-		"verified": "11.311"
-	  },
-    "url": "https://github.com/FionaBrightgrass/Aura-Share",
-    "manifest": "https://github.com/FionaBrightgrass/Aura-Share/raw/main/module.json",
-    "download": "https://github.com/FionaBrightgrass/Aura-Share/raw/main/module.zip"
-  }
+      },
+      {
+        "id": "ffd20",
+        "type": "system",
+        "compatibility": {
+          "minimum": "10.0.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.311"
+  },
+  "url": "https://github.com/stuart-frew/Aura-Share",
+  "manifest": "https://github.com/stuart-frew/Aura-Share/raw/main/module.json",
+  "download": "https://github.com/stuart-frew/Aura-Share/raw/main/module.zip"
+}
