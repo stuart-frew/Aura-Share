@@ -7,6 +7,7 @@ on:
 
 jobs:
   build:
+    name: build and release module
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -15,9 +16,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@4
-
-      - name: Zip
-        run: zip -r ./module.zip module.json scripts/
+#      - name: Zip
+#        run: zip -r ./module.zip module.json scripts/
 #     - name: Create Release
 #        uses: ncipollo/release-action@1
 #        with:
