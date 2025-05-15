@@ -18,9 +18,8 @@ jobs:
 
       - name: Zip
         run: zip -r ./module.zip module.json scripts/
-
-      - name: Create Release
-        uses: ncipollo/release-action@1
-        with:
-          name: latest
-          token: ${{ secrets.GITHUB_TOKEN }}
+#     - name: Create Release
+#        uses: ncipollo/release-action@1
+#        with:
+#          name: latest
+#          token: ${{ secrets.GITHUB_TOKEN }}
