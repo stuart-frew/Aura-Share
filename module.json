@@ -2,7 +2,7 @@
   "id": "aurashare",
   "name": "aurashare",
   "title": "Aura Share",
-  "description": "Automates auras in Pathfinder 1e",
+  "description": "Automates appliy auras to actors that are close enough in Pathfinder 1e",
   "version": "2.1.0",
   "esmodules": ["scripts/aurashare.js"],
   "authors": [
@@ -20,19 +20,12 @@
         "compatibility": {
           "minimum": "0.82.5"
         }
-      },
-      {
-        "id": "ffd20",
-        "type": "system",
-        "compatibility": {
-          "minimum": "10.0.0"
-        }
       }
     ]
   },
   "compatibility": {
     "minimum": "10",
-    "verified": "11.311"
+    "verified": "12"
   },
   "url": "https://github.com/stuart-frew/Aura-Share",
   "manifest": "https://github.com/stuart-frew/Aura-Share/raw/main/module.json",
