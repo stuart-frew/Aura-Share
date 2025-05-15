@@ -22,7 +22,7 @@ jobs:
           zip -r ./module.zip module.json scripts/
 
       - name: Create Release
-        uses: ncipollo/release-action@1.16.0
+        uses: nicpollo/release-action@1.16.0
         with:
           name: latest
           token: ${{ secrets.GITHUB_TOKEN }}
