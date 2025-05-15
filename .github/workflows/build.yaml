@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@4
+        uses: actions/checkout@4.2.2
 
       - name: Zip
         run: |
