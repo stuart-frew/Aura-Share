@@ -8,7 +8,7 @@
 
 Aura Share: Automates the sharing of buffs between tokens. This makes handling auras easier. The conditions for automating the auras are listed in the notes below. (It's pretty simple)
 
-Manifest URL: <<https://github.com/stuart-frew> /Aura-Share/raw/main/module.json
+> Manifest URL: [https://github.com/stuart-frew/Aura-Share/raw/main/module.json]
 
 ## Instructions
 
