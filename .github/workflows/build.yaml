@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      token: read
+      id-token: read
 
     steps:
       - name: checkout
