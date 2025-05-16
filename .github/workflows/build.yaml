@@ -21,8 +21,19 @@ jobs:
         run: |
           zip -r ./module.zip module.json scripts/
 
-      - name: Create Release
-        uses: ncipollo/release-action@v1.16.0
+      - name: Get Next Version
+        id: semver
+        uses: ietf-tools/semver-action@v1
         with:
-          name: latest
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
+          branch: main
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          allowUpdates: true
+          draft: false
+          makeLatest: true
+          name: ${{ steps.semver.outputs.next }}
+          body: Changelog Contents
+          token: ${{ github.token }}
