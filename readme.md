@@ -42,7 +42,8 @@ Example:
 ### Adds the buff to allies if
 
 - The source actor has a buff with a radius > 0.
-- The buff is enabled, OR if the source actor's buff has the "shareInactive" Boolean flag.
+- The buff is enabled, OR if the source actor's buff has
+  the "shareInactive" Boolean flag.
 
 ### Adds the buff to allies when
 
