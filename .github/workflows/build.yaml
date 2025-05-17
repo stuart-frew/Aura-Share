@@ -17,7 +17,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@4.2.2
 
-      - name: Zip
+      - name: Zip module
         run: |
           zip -r ./module.zip module.json scripts/
 
