@@ -38,3 +38,4 @@ jobs:
           draft: false
           tag: ${{ steps.semver.outputs.next }}
           token: ${{ github.token }}
+          artifacts: module.*
